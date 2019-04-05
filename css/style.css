@@ -1806,3 +1806,10 @@ input[type="text"] {
     width: 25%;
   }
 }
+
+@media screen and (min-width: 990px){
+  .row .col-md-12.services-wrap>.row{
+    display: flex;
+    justify-content: center;
+  }
+}
