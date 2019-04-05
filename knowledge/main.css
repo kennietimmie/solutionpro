@@ -1,0 +1,58 @@
+.nav_header{
+ position: fixed;
+  width: 100%;
+  height: 74px;
+  top: 0;
+  left: 0;
+  background: transparent;
+  transition: all .3s ease;
+  z-index: 10;
+  margin-bottom: -74px;
+}
+.container_header{
+ display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  flex-basis: 100%;
+  flex-direction: column;
+  flex-flow: wrap;
+  flex-grow: 2;
+  flex-wrap: wrap;
+}
+
+.button{
+ position: relative;
+  display: inline-block;
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 10px 39px 11px 40px;
+  border-radius: 40px;
+  border-width: 1px;
+  border-style: solid;
+  overflow: hidden;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  line-height: 12px;
+  text-transform: uppercase;
+  transition: all 0.24s cubic-bezier(0.62, 0.12, 0.46, 0.85);
+  transition-property: box-shadow, border-color, color, background;
+}
+.button_transparent-grad{
+ background: rgba(155, 171, 255, 0.07);
+ color: #ffffff;
+ border-color: rgba(155, 171, 255, 0.3);
+}
+.buttons_wrap{
+ position: relative;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  transition: .2s ease;
+}
