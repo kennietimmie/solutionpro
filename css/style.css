@@ -1789,3 +1789,18 @@ input[type="text"] {
 
 .js .animate-box {
   opacity: 0; }
+
+/* =======================================================
+*
+* 	Logo Style 
+*
+* ======================================================= */
+
+.camel_sitelogo{
+  width: 100%;
+}
+@media screen and (max-width: 990px){
+  .camel_sitelogo{
+    width: 25%;
+  }
+}
