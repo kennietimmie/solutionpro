@@ -623,13 +623,12 @@ h1, h2, h3, h4, h5, h6, figure {
   .services .icon {
     margin: 0 auto;
     margin-bottom: 10px;
-    display: block; }
-    .services .icon i {
-      font-size: 50px;
-      color: #000;
-      -webkit-transition: 0.3s;
-      -o-transition: 0.3s;
-      transition: 0.3s; }
+    display: block; 
+    font-size: 50px;
+    color: #000;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;}
   .services .desc {
     padding: 0 5px; }
     .services .desc h3 {
@@ -641,7 +640,7 @@ h1, h2, h3, h4, h5, h6, figure {
     -moz-box-shadow: 0px 16px 78px -34px rgba(0, 0, 0, 0.52);
     box-shadow: 0px 16px 78px -34px rgba(0, 0, 0, 0.52);
     margin-top: -5px; }
-    .services:hover .icon i {
+    .services:hover .icon  {
       color: #4586ff; }
     .services:hover .desc h3 {
       color: #4586ff; }
