@@ -15,7 +15,7 @@ body {
   font-weight: 300;
   font-size: 17px;
   line-height: 1.5;
-  color: #555555;
+  color: #000;
   background: #fff; }
 
 #page {
@@ -441,7 +441,8 @@ h1, h2, h3, h4, h5, h6, figure {
 #colorlib-testimony,
 .colorlib-blog,
 #colorlib-project,
-#colorlib-subscribe {
+#colorlib-subscribe,
+section {
   padding: 4em 0;
   clear: both; }
 
@@ -1286,16 +1287,18 @@ input[type="text"] {
     left: 0;
     bottom: 0;
     content: '';
-    width: 100%;
-    background: rgba(0, 0, 0, 0.5);
     z-index: -1; }
+    #colorlib-subscribe:after, #colorlib-cvrecruiters{
+      width: 100%;
+      background: rgb(248, 248, 248);
+    }
   #colorlib-subscribe .colorlib-heading {
     margin-bottom: 20px; }
     #colorlib-subscribe .colorlib-heading h2 {
-      color: #fff; }
+      color: rgb(0, 0, 0); }
     #colorlib-subscribe .colorlib-heading p {
       font-size: 18px;
-      color: rgba(255, 255, 255, 0.6); }
+      color: rgb(0, 0, 0);}
 
 .qbstp-header-subscribe {
   display: -webkit-box;
@@ -1344,10 +1347,10 @@ input[type="text"] {
     font-size: 14px;
     width: 100%;
     border: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-    color: rgba(255, 255, 255, 0.6); }
+    border-bottom: 1px solid rgb(82, 142, 254);
+    color: rgb(0, 0, 0); }
   .qbstp-header-subscribe button {
-    color: #fff;
+    color: #528efd;
     border: none;
     padding: 10px 20px;
     text-transform: uppercase;
@@ -1355,7 +1358,7 @@ input[type="text"] {
     width: 100%;
     display: block;
     background: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.5); }
+    border: 1px solid rgb(82, 142, 254); }
 
 #colorlib-footer {
   padding-top: 6em;
