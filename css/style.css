@@ -1188,7 +1188,7 @@ section {
   .contact-info-wrap-flex p {
     margin-bottom: 0;
     color: #000; }
-    .contact-info-wrap-flex p span i {
+    .contact-info-wrap-flex p span>* {
       color: #4586ff; }
     .contact-info-wrap-flex p a {
       color: #000; }
