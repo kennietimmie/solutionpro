@@ -339,8 +339,10 @@ h1, h2, h3, h4, h5, h6, figure {
         -moz-border-radius: 50%;
         -ms-border-radius: 50%;
         border-radius: 50%; }
-        #colorlib-hero .btn.btn-primary .icon i {
-          display: table-cell;
+        #colorlib-hero .btn.btn-primary .icon>* {
+          font-size: 20px;
+          position: relative;
+          top: inherit;
           vertical-align: middle;
           color: #4586ff !important; }
   #colorlib-hero .flexslider {
@@ -393,9 +395,9 @@ h1, h2, h3, h4, h5, h6, figure {
         @media screen and (max-width: 768px) {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner {
             text-align: center; } }
-        #colorlib-hero .flexslider .slider-text > .slider-text-inner span i {
-          font-size: 24px;
-          color: #F7AF1D; }
+        #colorlib-hero .flexslider .slider-text > .slider-text-inner span>* {
+          font-size: 20px;
+           }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           margin: 0;
           padding: 0;
@@ -598,13 +600,15 @@ section {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     border-radius: 50%; }
-    #colorlib-services .btn-discover .icon i {
-      display: table-cell;
-      vertical-align: middle;
+    #colorlib-services .btn-discover .icon>* {
+      font-size: 20px;
+      position: relative;
+      top: inherit;
+    vertical-align: middle;
       color: #fff; }
   #colorlib-services .btn-discover:hover .icon {
     background: #fff; }
-    #colorlib-services .btn-discover:hover .icon i {
+    #colorlib-services .btn-discover:hover .icon >* {
       color: #4586ff; }
 
 .services {
@@ -1410,7 +1414,7 @@ input[type="text"] {
       #colorlib-footer .colorlib-footer-links li a {
         color: rgba(255, 255, 255, 0.9);
         text-decoration: none; }
-        #colorlib-footer .colorlib-footer-links li a i {
+        #colorlib-footer .colorlib-footer-links li .icon {
           padding-right: 10px; }
   #colorlib-footer .colorlib-social-icons li a {
     padding-left: 10px;
