@@ -949,7 +949,7 @@
 								</i>Lagos Nigeria</li>
 							<li><a href="tel:08099564000">
 									<i class="icon">
-											<i class="fas fa-mobile-alt"></i>
+										<i class="fas fa-mobile-alt"></i>
 									</i>0809 956 4000</a></li>
 							<li><a href="mailto:info@solutionpro.com.ng">
 									<i class="icon">
@@ -1135,7 +1135,27 @@
 	<script src="js/jquery.countTo.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
+	<script type="text/javascript">
+		document.addEventListener('DOMContentLoaded', function () {
+			var elements = document.querySelectorAll('.owl-dots .owl-dot')
 
+			function autoSlider(arr) {
+				var iterator = function (index) {
+					if (index >= arr.length) {
+						index = 0;
+					}
+					$(arr[index]).trigger('click');
+					setTimeout(function () {
+						iterator(++index);
+					}, 2000);
+				};
+
+				iterator(0);
+			};
+
+			autoSlider(elements);
+		})
+	</script>
 </body>
 
 </html>
